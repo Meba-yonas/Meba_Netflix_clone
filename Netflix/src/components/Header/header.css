@@ -1,0 +1,36 @@
+.header{
+    position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: rgba(20, 20, 20, 0.9); /* Adjust the alpha value (0-1) for transparency */
+
+	height: 10vh;
+	color: #fff;
+	transition: all 0s;
+	transition-timing-function: ease-in;
+	z-index: 1;
+}
+.headerdiv{
+width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.left ul{
+    width: 130%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.left ul,.right ul li{
+    list-style: none;
+	margin-left: 10px;
+}
+.right ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	}
