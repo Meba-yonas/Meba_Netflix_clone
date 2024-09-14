@@ -4,11 +4,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    background-color: rgba(20, 20, 20, 0.9); /* Adjust the alpha value (0-1) for transparency */
-
+    background-color: rgba(20, 20, 20, 0.9); 
 	height: 10vh;
 	color: #fff;
-	transition: all 0s;
+	transition: all 0.5s;
 	transition-timing-function: ease-in;
 	z-index: 1;
 }
